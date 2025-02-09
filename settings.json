@@ -43,11 +43,11 @@
     "editor.gotoLocation.multipleTypeDefinitions": "goto",
 
     // Typography
-    "editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
+    "editor.fontFamily": "'0xProto Nerd Font', JetBrains Mono, Fira Code",
     "editor.suggestFontSize": 16,
     "editor.suggestLineHeight": 30,
     "terminal.integrated.lineHeight": 1.5,
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 14,
 
     "search.useIgnoreFiles": false,
     "search.exclude": {
@@ -137,12 +137,12 @@
     },
     "security.workspace.trust.untrustedFiles": "open",
     "editor.linkedEditing": true,
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     // "editor.fontLigatures": false,
     "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
     "diffEditor.wordWrap": "on",
     "notebook.output.wordWrap": true,
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "editor.minimap.maxColumn": 250,
     "codesnap.containerPadding": "8em",
     "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
@@ -192,12 +192,13 @@
     },
     "material-icon-theme.saturation": 0,
     "vscode_custom_css.imports": [
-        "file:///Users/glennraya/custom-vscode.css",
-        "file:///Users/glennraya/vscode-script.js"
+        "file:///home/ghtmnb0004/custom-vscode.css",
+        "file:///home/ghtmnb0004/vscode-script.js"
     ],
-    "workbench.colorTheme": "React Theme",
-    "workbench.iconTheme": "eq-material-theme-icons-light",
     "workbench.sideBar.location": "right",
     "material-icon-theme.files.color": "#42a5f5",
-    "workbench.tree.enableStickyScroll": false
+    "workbench.tree.enableStickyScroll": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Default Dark+",
+    "makefile.configureOnOpen": true
 }
